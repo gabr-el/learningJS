@@ -2,7 +2,6 @@ let firstName = "Giovanni";
 
 const number = 35;
 
-
 //Array
 let times = ["Flamengo", "Botafogo", "Paulista"];
 
