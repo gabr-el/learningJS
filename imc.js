@@ -2,8 +2,12 @@
 //Calcular o IMC
 //Peso / (Altura * Altura)
 
-function imc(peso, altura1, altura2){
-    return (peso / (altura1 * altura2))
+function imc(valorPeso, valorAltura){
+    const peso = valorPeso;
+    const altura = valorAltura;
+    const resultadoImc = peso / (altura * altura);
+
+    console.log(`Seu IMC é ${resultadoImc}`);
 }
 
-console.log(imc(80, 1.76, 1.76))
+imc(80, 1.76);

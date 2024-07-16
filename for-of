@@ -1,0 +1,5 @@
+const cars = [Celta, gol, ferrari];
+
+for(let car of cars){
+    console.log(car);
+}
